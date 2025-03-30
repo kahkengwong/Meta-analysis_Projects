@@ -61,7 +61,7 @@ The script is organized into 10 sections, each focusing on a specific aspect of 
 
 ### Prerequisites
 To run the script, you need:
-- **R**: Version 3.0 or higher (script was developed in 2015, so compatible with older versions).
+- **R**: Version 3.0 or higher (script was developed in 2016, so compatible with older versions).
 - **R Packages**:
   - `xlsx`: For reading Excel files.
   - `metafor`: For meta-analysis and visualization.
