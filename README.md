@@ -57,19 +57,6 @@ The script is organized into 10 sections, each focusing on a specific aspect of 
 - **Section 10: Publication Bias Tests (Egger's Test)**  
   Performs classical and random/mixed-effects Egger's tests to assess publication bias in the aCL meta-analysis.
 
-## Getting Started
-
-### Prerequisites
-To run the script, you need:
-- **R**: Version 3.0 or higher (script was developed in 2016, so compatible with older versions).
-- **R Packages**:
-  - `xlsx`: For reading Excel files.
-  - `metafor`: For meta-analysis and visualization.
-  - `RColorBrewer`: For color palettes in plots.
-  Install these using the commands at the top of the script.
-- **Java**: Required for the `xlsx` package. Alternatively, replace `xlsx` with `readxl` to avoid this dependency.
-- **Excel Files**: The script references multiple Excel files (e.g., `R_Forest_aCL-only.xlsx`, `R_Forest_Plot_n=13.xlsx`). These are not included in the repository but can be requested (see [Contact](#contact)).
-
 ---
 
 ## License
