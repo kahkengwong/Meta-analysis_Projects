@@ -1,7 +1,6 @@
 # Title: Meta-Analysis for Antiphospholipid Antibodies and Migraine/Dementia
 # Author: Kah Keng Wong
 # Date: Dec 2016
-# Description: This script generates forest plots, funnel plots, and other meta-analysis visualizations for "Comorbid association of antiphospholipid antibodies and migraine: A systematic review and meta-analysis" (Autoimmunity Reviews, PMID: 28279839). Similar scripts were used for the meta-analysis and visualizations for "Presence of Anticardiolipin Antibodies in Patients with Dementia: A Systematic Review and Meta-Analysis" (PMID: 28824414)
 # The script uses the metafor package for meta-analysis and generates plots for various subgroups (e.g., adults, pediatrics, gender, migraine types).
 
 
@@ -295,8 +294,3 @@ regtest(aCLres, model="lm")
 
 # Random/Mixed-Effects Egger Test for aCL
 regtest(aCLres)
-
-# Notes:
-# - Ensure all Excel files are in the specified directories.
-# - Plot dimensions are converted from pixels to inches (e.g., 769/72 for width).
-# - Some sections (e.g., epilepsy directory) were not used in the final script.
